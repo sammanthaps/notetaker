@@ -16,9 +16,16 @@
     />
   </a>
 
-  <a href="https://react.dev/">
+  <a href="https://react.dev/" style="padding-right: 15px">
     <img
       src="./readme_images/frontend-reactjs.svg"
+      alt=""
+    />
+  </a>
+  
+  <a href="https://www.postgresql.org/">
+    <img
+      src="./readme_images/database-postgresql.svg"
       alt=""
     />
   </a>
