@@ -1,0 +1,11 @@
+./db.sqlite3
+*.md
+./.idea/
+./.venv/
+__pycache*
+.*pyc
+*.sqlite3
+*.swo
+*.swp
+.git
+.gitignore

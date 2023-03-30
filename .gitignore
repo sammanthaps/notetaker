@@ -1,0 +1,10 @@
+db.sqlite3
+__pycache*	
+*.pyc
+*.swp
+*.swo
+.env.prod
+.env
+migrations
+!__init__.py
+./.venv/

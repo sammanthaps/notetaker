@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+  backend:
+    build: .
+    container_name: backend_container
+    depends_on:
+      - api_db
+    volumes:
+      - .:/usr/src/app
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+
+  api_db:
+    restart: always
+    image: postgres
+    volumes:
+      - postgres_data:/postgresql/data
+    environment:
+      - POSTGRES_USER=notetaker_admin
+      - POSTGRES_PASSWORD=MPPe@b?MVnbyGaY2
+      - POSTGRES_DB=notetakerdb
+volumes:
+  .:
+  postgres_data:
