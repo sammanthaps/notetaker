@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://www.djangoproject.com/" style="padding-right: 15px">
+  <a href="https://www.djangoproject.com/" target="_blank" style="padding-right: 15px">
     <img
       src="./readme_images/backend-django.svg"
       alt=""
